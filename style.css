@@ -1,0 +1,75 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.fg-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.fg-col {
+    box-sizing: border-box;
+    border: 2px dotted #9bec73;
+    padding: 4px;
+    text-align: center;
+}
+
+.fg-col-auto {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.fg-col-1 {
+    flex-shrink: 0;
+    flex-basis: 10%;
+}
+
+.fg-col-2 {
+    flex-shrink: 0;
+    flex-basis: 20%;
+}
+
+.fg-col-3 {
+    flex-shrink: 0;
+    flex-basis: 30%;
+}
+
+.fg-col-4 {
+    flex-shrink: 0;
+    flex-basis: 40%;
+}
+
+.fg-col-5 {
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+.fg-col-6 {
+    flex-shrink: 0;
+    flex-basis: 60%;
+}
+
+.fg-col-7 {
+    flex-shrink: 0;
+    flex-basis: 70%;
+}
+
+.fg-col-8 {
+    flex-shrink: 0;
+    flex-basis: 80%;
+}
+
+.fg-col-9 {
+    flex-shrink: 0;
+    flex-basis: 90%;
+}
+
+
+@media (max-width: 992px) {
+    .fg-container {
+        flex-direction: column;
+    }
+}
